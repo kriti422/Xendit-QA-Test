@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="test-online-calculator-scenario;test-division-functionality" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Abhishek Pandey/Desktop/Archive/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenario;test-division-functionality" time="17.930532199">
+        </testcase>
+        <testcase name="When I enter following values and press CE button" classname="test-online-calculator-scenario;test-division-functionality" time="6.410475499">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenario;test-division-functionality" time="0.481882599">
+        </testcase>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,107 @@
+[
+  {
+    "elements": [
+      {
+        "id": "test-online-calculator-scenario;test-division-functionality",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Test division functionality",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 17930532199
+            },
+            "line": 3,
+            "match": {
+              "location": "Pandey\\Desktop\\Archive\\step-definitions\\calculator-steps.js:4"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "value1",
+                      "23.4"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "value2",
+                      "2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "operator",
+                      "/"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I enter following values and press CE button",
+            "result": {
+              "status": "passed",
+              "duration": 6410475499
+            },
+            "line": 4,
+            "match": {
+              "location": "Pandey\\Desktop\\Archive\\step-definitions\\calculator-steps.js:8"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "11.7"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 481882599
+            },
+            "line": 8,
+            "match": {
+              "location": "Pandey\\Desktop\\Archive\\step-definitions\\calculator-steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4270774400
+            },
+            "hidden": true,
+            "match": {
+              "location": "Pandey\\Desktop\\Archive\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-online-calculator-scenario",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test online calculator scenario",
+    "tags": [],
+    "uri": "C:/Users/Abhishek Pandey/Desktop/Archive/features/calculator.feature"
+  }
+]
